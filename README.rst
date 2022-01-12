@@ -3,9 +3,6 @@ statistical_rethinking_pyth_2022
 ================================
 
 
-.. image:: https://img.shields.io/pypi/v/statistical_rethinking_pyth_2022.svg
-        :target: https://pypi.python.org/pypi/statistical_rethinking_pyth_2022
-
 .. image:: https://github.com/mmyros/statistical_rethinking_pyth_2022/actions/workflows/pytest.yaml/badge.svg
         :target: https://github.com/mmyros/statistical_rethinking_pyth_2022/actions/workflows/pytest.yaml/badge.svg
 
