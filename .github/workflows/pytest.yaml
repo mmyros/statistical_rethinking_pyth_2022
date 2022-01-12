@@ -1,4 +1,4 @@
-name: deploy-book
+name: pytest
 
 # Only run this when the master branch changes
 on:
@@ -27,8 +27,8 @@ jobs:
     # validate notebooks
     - name: nbval
       run: pytest --nbval-lax --current-env
-      #--basetemp={envtmpdir}/docs 
-    
+
+#--basetemp={envtmpdir}/docs    
         
     # Build the book
     # Push the book's HTML to github-pages
