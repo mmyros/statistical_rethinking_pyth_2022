@@ -27,7 +27,7 @@ jobs:
         python-version: 3.7
     # validate notebooks
     - name: nbval
-      run: pytest --nbval-lax --current-env
+      run: pip install -r requirements.txt; pytest --nbval-lax --current-env
 
 #--basetemp={envtmpdir}/docs    
         
